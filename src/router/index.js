@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 
 import Users from '../views/Users.vue';
 import Repo from '../views/Repo.vue';
+import Slots from '../views/Slots.vue';
 
 Vue.use(VueRouter);
 
@@ -16,6 +17,11 @@ const routes = [
     path: '/Repo',
     name: 'Repo',
     component: Repo
+  },
+  {
+    path: '/Slots',
+    name: 'Slots',
+    component: Slots
   }
 ];
 
